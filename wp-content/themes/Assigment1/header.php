@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title><?php bloginfo('name'); ?>~<?php bloginfo('description'); ?></title>
+	<title><?= get_bloginfo('name') .' ~ '. get_bloginfo('description') ?></title>
 </head>
 <body>
 
